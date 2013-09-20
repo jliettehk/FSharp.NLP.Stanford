@@ -13,7 +13,7 @@ module Iterable =
     // - take existing module ParserDemo2 (file ParserDemo2.fs in samples directory)
     // - in line 22, 'sentences' is defined
     // - suppose that you insert the following code before the 'for loop' of line 39 :
-         let length = Seq.length sentences  // or any Seq function
+    //     let length = Seq.length sentences  // or any Seq function
     // - it will execute giving you the right length
     // - if you add another call to Seq like : let length2 = Seq.length sentences 
     // - then length2 will be 0 <==== that's the PROBLEM
